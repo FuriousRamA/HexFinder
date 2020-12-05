@@ -1,0 +1,155 @@
+*{
+    font-family: ubuntu, arial;
+}
+
+#body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #ffffff;
+    transition: background 0.5s;
+}
+
+.mainContainer{
+    position: absolute;
+    background-image: url("mainBackGround.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    width: 1200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    left: 3%;
+    margin-top: 10%;
+    border-radius: 40px;
+}
+
+.monoBox{
+    position: relative;
+    height: 20vh;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.singleColor{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.dualBox{
+    position: relative;
+    height: 20vh;
+    width: 300px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.dualColor1{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+.dualColor2{
+    position: absolute;
+    top: 40%;
+    left: 55%;
+}
+
+.forGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
+    grid-gap: 20px;
+}
+
+.code{
+    position: relative;
+    height: 20vh;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.hex{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+
+.code2{
+    position: relative;
+    height: 20vh;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+.hex2{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+.hex3{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}
+
+nav{
+  position: absolute;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  width: 700px;
+  left: 23%;
+  border-radius: 50px;
+  transition: background 0.5s;
+}
+
+nav a{
+  padding: 265px;
+  text-decoration-line: none;
+  font-weight: bold;
+  color: black;
+}
+
+#switch{
+  border-width: 0px;
+  color: white;
+  background: black;
+  border-radius: 50px;
+  padding: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.1s;
+}
+
+#switch:active{
+  transform: scale(0.9);
+}
+
+#switch2{
+  border-width: 0px;
+  color: white;
+  background: black;
+  border-radius: 50px;
+  padding: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.1s;
+}
+
+#switch2:active{
+  transform: scale(0.9);
+}
+
+footer{
+  padding: 20px;
+}
+
+footer p{
+  left: 25%;
+}
